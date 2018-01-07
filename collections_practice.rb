@@ -14,3 +14,7 @@ end
 def remove_non_strings(arr)
 	arr.delete {|el| el.class != String}
 end
+
+def count_elements(arr)
+  arr.count {|el| el > 0}
+end
